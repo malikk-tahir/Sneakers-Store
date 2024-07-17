@@ -153,6 +153,7 @@ nav{
     top: 73%;
     right: 29.5%;
     display: flex;
+    cursor: pointer;
 }
 .sizes{
     margin-right: 10px;
