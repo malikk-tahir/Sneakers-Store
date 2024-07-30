@@ -48,19 +48,23 @@ menuitem.forEach((val,index)=>{
 });
 
 
-let prevDiv = undefined
-
+let one=document.querySelectorAll(".sizes");
 size.forEach((sizes)=>{
      sizes.addEventListener("click",(e)=>{
-        console.log(sizes)
-        if(prevDiv)
-            {
-                prevDiv.style.backgroundColor = "white"
-                prevDiv.style.color="black"
-            }
-            sizes.style.backgroundColor = "black";
-            sizes.style.color="white";
-            prevDiv = sizes
+        one.forEach((val)=>{
+            val.classList.remove("sizecolor");
+        });
+        if(sizes.innerHTML=="41"){
+            document.getElementById("s1").classList.add("sizecolor");
+            console.log("red1");
+        }
+        else if(sizes.innerHTML=="42"){
+            document.getElementById("s2").classList.add("sizecolor");
+            console.log("red2");
+        }
+        else if(sizes.innerHTML=="43"){
+            document.getElementById("s3").classList.add("sizecolor");
+        }
     });
 });
 
