@@ -18,13 +18,13 @@ const products = [
         id: 3,
         title: "JORDAN",
         price: 110,
-        img: "jordan.png"
+        img: "file.png"
     },
     {
         id: 4,
         title: "AIR FORCE",
         price: 99,
-        img: "airforce.png"
+        img: "file2.png"
     }
 ];
 
