@@ -250,7 +250,7 @@ label{
 }
 
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:600px){
     body{
         height: 50px;
     }
@@ -318,7 +318,7 @@ label{
     }
     .color{
         position: absolute;
-        top: 81%;
+        top: 83%;
         left: 15%;
         display: flex;
     }
@@ -333,7 +333,7 @@ label{
     }
     .size{
         position: absolute;
-        top: 86%;
+        top: 90%;
         left: 15%;
         display: flex;
     }
@@ -343,7 +343,7 @@ label{
     }
     .productbutton{
         position: absolute;
-        top: 86%;
+        top: 90%;
         right: 28%;
         font-size: 12px;
     }
